@@ -61,7 +61,7 @@ function BotaoPair() {
             } else if (foodRigb==3) {
                 alert(`Hmm, parece que o Mordecai já ia levar isso. Você é desclassificado da competição!
                 e leva uma baita bronca...`)
-                location.href= "http://127.0.0.1:5500/ProjFinalModulo1/projfinalMOD1.html"
+                location.href= "http://127.0.0.1:5500/M%C3%B3dulo1/JogoApenasUmShow/index.html"
             } else {
                 alert('Hmm, parece que essa não é uma opção!')
             }
