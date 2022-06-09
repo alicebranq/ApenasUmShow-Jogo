@@ -14,35 +14,21 @@
     <title>Aniversário do Musculoso</title>
 </head>
 <body>
-    <script scr="index.js"></script> 
     <div class="introduction-game">
         <div class="textGameStart">
             <div id="titleGame"> <h1> Aniversário do Musculoso </h1> </div>
-            <div id="subtitleGame"> É aaaniversário do Musculoso e ele chamou todos do parque para uma competição da melhor comida da festa: quem você escolhe para completar essa missão? </div>
+            <div id="subtitleGame"> É aniversário do Musculoso e ele chamou todos do parque para uma competição da melhor comida da festa: quem você escolhe para completar essa missão? </div>
         </div>
         <div class="choose-character-button"> 
-                <button onclick="BotaoMord()" class="botao-mordecai"><a href="RotaMordecai.html"> Mordecai </a></button>
-                <button onclick="BotaoRigb()" class="botao-rigby"><a href="RotaRigby.html"> Rigby </a></button>
-                <button onclick="BotaoPair()" class="botao-pairulito"><a href="RotaPairulito.html"> Pairulito </a></button>
-                <script> 
-                    function BotaoMord() {
-                        alert(`Cara! O Benson vai demitir a gente! 
-                        Você escolheu Mordecai`);
-                        } 
-                    function BotaoRigb() {
-                        alert(`"Cala a boca!" 
-                        Você escolheu Rigby`);
-                        }
-                    function BotaoPair() {
-                        alert(`Muito bom show! 
-                        Você escolheu Pairulito`);
-                    }</script>
-            </div>
+            <button onclick="BotaoMord()" class="botao-mordecai"><a href="RotaMordecai.html"> Mordecai </a></button>
+            <button onclick="BotaoRigb()" class="botao-rigby"><a href="RotaRigby.html"> Rigby </a></button>
+            <button onclick="BotaoPair()" class="botao-pairulito"><a href="RotaPairulito.html"> Pairulito </a></button>
+        </div>
         <div class="gamecards"> 
-                    <img class="cardgame" id="imgM" src="../JogoApenasUmShow/src/img/MordecaiCardGame.png" width='400', height='561'>
-                    <img class="cardgame" id="imgR" src="../JogoApenasUmShow/src/img/RigbyCardGame.png" width='400', height='561'>
-                    <img class=cardgame id="imgP" src="../JogoApenasUmShow/src/img/PairulitoCardGame.png" width='400', height='561'> 
-            </div>
+            <img class="cardgame" id="imgM" src="../JogoApenasUmShow/src/img/MordecaiCardGame.png" width='400', height='561'>
+            <img class="cardgame" id="imgR" src="../JogoApenasUmShow/src/img/RigbyCardGame.png" width='400', height='561'>
+            <img class=cardgame id="imgP" src="../JogoApenasUmShow/src/img/PairulitoCardGame.png" width='400', height='561'> 
+        </div>
     </div>
     <script src="./src/js/index.js"></script>
 </body>

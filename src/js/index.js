@@ -14,7 +14,7 @@ function BotaoRigb() {
 function BotaoPair() {
     alert(`Muito bom show! 
     Você escolheu Pairulito`);
-    location.href= "..."
+    location.href= "http://127.0.0.1:5500/M%C3%B3dulo1/JogoApenasUmShow/src/html%20routes/RotaPairulito.html."
 }
 
 // Rotas
@@ -54,10 +54,10 @@ function BotaoPair() {
         let foodRigb =prompt('Qual comida você quer levar?')
             if (foodRigb == 1) {
                 alert('Você escolheu Mac & Cheese!')
-                location.href="http://127.0.0.1:5500/ProjFinalModulo1/Rotas/RigbR1.html"
+                location.href="http://127.0.0.1:5500/M%C3%B3dulo1/JogoApenasUmShow/src/html%20routes/RotaRigby1.html"
             } else if (foodRigb==2) {
                 alert('Você escolheu escolheu Chimichuri! Vamos lá')
-                location.href= "http://127.0.0.1:5500/ProjFinalModulo1/Rotas/RigbR2.html";
+                location.href= "http://127.0.0.1:5500/M%C3%B3dulo1/JogoApenasUmShow/src/html%20routes/RotaRigby2.html";
             } else if (foodRigb==3) {
                 alert(`Hmm, parece que o Mordecai já ia levar isso. Você é desclassificado da competição!
                 e leva uma baita bronca...`)
@@ -66,6 +66,7 @@ function BotaoPair() {
                 alert('Hmm, parece que essa não é uma opção!')
             }
         }
+
     
     // ROTA PAIRULITO
     function chooseFoodPair() {
