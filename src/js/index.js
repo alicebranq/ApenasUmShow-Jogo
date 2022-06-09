@@ -4,12 +4,12 @@
 function BotaoMord() {
     alert(`Cara! O Benson vai demitir a gente! 
     Você escolheu Mordecai`);
-    location.href= "http://127.0.0.1:5500/M%C3%B3dulo1/JogoApenasUmShow/src/html%20routes/RotaMordecai.html";
+    location.href= "...";
     } 
 function BotaoRigb() {
     alert(`"Cala a boca!" 
     Você escolheu Rigby`);
-    location.href= "http://127.0.0.1:5500/M%C3%B3dulo1/JogoApenasUmShow/src/html%20routes/RotaRigby.html";
+    location.href= "...";
     } 
 function BotaoPair() {
     alert(`Muito bom show! 
@@ -54,29 +54,30 @@ function BotaoPair() {
         let foodRigb =prompt('Qual comida você quer levar?')
             if (foodRigb == 1) {
                 alert('Você escolheu Mac & Cheese!')
-                location.href="http://127.0.0.1:5500/ProjFinalModulo1/Rotas/RigbR1.html"
+                location.href="./RotasRigby1.html"
             } else if (foodRigb==2) {
                 alert('Você escolheu escolheu Chimichuri! Vamos lá')
-                location.href= "http://127.0.0.1:5500/ProjFinalModulo1/Rotas/RigbR2.html";
+                location.href= "./RotasRigby2.html";
             } else if (foodRigb==3) {
                 alert(`Hmm, parece que o Mordecai já ia levar isso. Você é desclassificado da competição!
                 e leva uma baita bronca...`)
-                location.href= "http://127.0.0.1:5500/ProjFinalModulo1/projfinalMOD1.html"
+                location.href= '../../index.html'
             } else {
                 alert('Hmm, parece que essa não é uma opção!')
             }
         }
+
     
     // ROTA PAIRULITO
     function chooseFoodPair() {
         let foodPair =prompt('Qual comida você quer levar?')
             if (foodPair==1) {
-                location.href= "http://127.0.0.1:5500/ProjFinalModulo1/Rotas/PairR1.html"
+                location.href= "..."
             } else if (foodPair==2) {
-                location.href= "http://127.0.0.1:5500/ProjFinalModulo1/Rotas/PairR2.html"
+                location.href= "..."
             } else if (foodPair==3) {
                 alert('Err, parece que Pairulito confundiu chimichuri com chico balanceado. A comida sai boa, pelo menos.')
-                location.href= "http://127.0.0.1:5500/ProjFinalModulo1/projfinalMOD1.html"
+                location.href= "..."
             } else {
                 alert('Hmm, parece que essa não é uma opção!')
             }

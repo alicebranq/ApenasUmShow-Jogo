@@ -7,3 +7,42 @@
 .body-pair{
     background-color: #FFD1D1;
 }
+
+.container-textimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 7%;
+}
+    .imagem{
+    padding: 2%;
+    margin-right: 20px;
+    }
+    .text {
+    margin-left: 20px;
+    margin-top: 10%;
+    }
+    .rota-instrução{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 11%;
+    font-size: 30px;
+    font-family: IceCreamParty;
+    }
+    .rota-opções{
+    font-size: 30px;
+    } li{
+        margin: 3%;
+    }
+    .chooseBtn{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 30px;
+    color: #191824;
+    background: rgb(77,18,255);
+    background: linear-gradient(90deg, rgba(77,18,255,1) 0%, rgba(255,18,18,1) 100%);
+    }
+
