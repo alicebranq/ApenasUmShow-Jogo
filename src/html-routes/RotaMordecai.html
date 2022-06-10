@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/rotas.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        @font-face {
+            font-family: Peace Sans;
+            src: url("Peace Sans.otf") format('opentype'), url("Peace Sans Webfont.ttf") format('truetype');
+            font-weight: normal; font-style: normal;
+        } 
     </style>
     <title>Rigby</title>
 </head>
@@ -25,11 +26,11 @@
                 <li> Ravioli </li>
                 <li> Canjica </li>
             </ol>
+            <div>
+                <button class='chooseBtn' onclick="chooseFoodMord()"> Já decidi! </button>
+            </div>  
         </div>
     </div>
-    </div>
-        <button class='uepa' onclick="chooseFoodMord()"> Já decidi! </button>
-    </div>  
     <script src="../js/index.js"></script>  
 </body>
 </html>

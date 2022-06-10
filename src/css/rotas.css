@@ -7,12 +7,14 @@
 .body-pair{
     background-color: #FFD1D1;
 }
-
+body{
+    font-family: Peace Sans;
+}
 .container-textimg{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 7%;
+    margin-top: 3%;
 }
     .imagem{
     padding: 2%;
@@ -20,7 +22,7 @@
     }
     .text {
     margin-left: 20px;
-    margin-top: 10%;
+    margin-top: 3%;
     }
     .rota-instrução{
     display: flex;
@@ -28,7 +30,7 @@
     align-items: center;
     margin-right: 11%;
     font-size: 30px;
-    font-family: IceCreamParty;
+    font-family: Peace Sans;
     }
     .rota-opções{
     font-size: 30px;
@@ -41,7 +43,8 @@
     padding-top: 3%;
     padding-bottom: 3%;
     font-size: 30px;
-    color: #191824;
+    font-family: Peace Sans;
+    color: #ffff3f;
     background: rgb(77,18,255);
     background: linear-gradient(90deg, rgba(77,18,255,1) 0%, rgba(255,18,18,1) 100%);
     }
